@@ -26,4 +26,11 @@ return [
         'passFile' => __DIR__ . '/iosCertificates/yourKey.pem', //Optional
         'dry_run' => true,
     ],
+    'apnp8' => [
+        'key' => __DIR__ . '/apns-key.p8',
+        'keyId' => 'My_Key_Id',
+        'bundle' => 'My_App_Bundle',
+        'teamId' => 'My_Apple_Team_Id',
+        'dry_run' => true,
+    ],
 ];
