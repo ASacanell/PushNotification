@@ -19,7 +19,8 @@ class PushNotification
         'gcm' => Gcm::class,
         'apnp8' => ApnP8::class,
         'apn' => Apn::class,
-        'fcm' => Fcm::class
+        'fcm' => Fcm::class,
+        'fcmv1' => FcmV1::class,
     ];
 
     /**
